@@ -8,7 +8,7 @@ Rules of Pig Game:
 1. You need two players.
 2. Rolling a 1 is bad. It will reset your score.
 3. Make sure to make smart decisions when to hold the dice.
-4. First player to ${winningScore} points wins!
+4. First player to 50 points wins!
 
 Good Luck!
 
