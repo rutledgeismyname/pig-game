@@ -1,4 +1,5 @@
-# pig-game
+# Pig Game
+
 Two player desktop game to 50 points. 
 
 Looking for a little fun? Try this two player dice game. 
@@ -14,4 +15,4 @@ Good Luck!
 
 P.S. I know that we do not have much folder strucutre here within this repository. That is done on purpose to display all the files for ease of use. 
 
-Happy Coding/Playing!
+Happy Coding/Playing! 
