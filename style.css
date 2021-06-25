@@ -173,6 +173,12 @@ filter: hue-rotate(55deg);
   background-color: #38cc84;
 }
 
+.pig--winner img{
+  transform: scale(1.6);
+  padding-bottom: 13px;
+  transition: .3s;
+}
+
 .player--winner .name {
   font-weight: 700;
   color: #c7365f;

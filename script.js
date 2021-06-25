@@ -11,9 +11,11 @@ const player0 = document.querySelector('.player--0');
 const player1 = document.querySelector('.player--1');
 const btnNew = document.querySelector('.btn--new');
 
+
 const winningScore = 50;
 
 // Start Rule Alert for Pig Game
+
 alert(`
 Rules of Pig Game: 
 
@@ -23,7 +25,8 @@ Rules of Pig Game:
 4. First player to ${winningScore} points wins!
 
 Good Luck!`);
-// End Rule Alert
+// End Rule Alert 
+
 let scores, currentScore, activePlayer, playing;
 
 // Reset init function
@@ -41,6 +44,9 @@ const init = function(){
   player1.classList.remove('player--winner');
   player0.classList.add('player--active');
   player1.classList.remove('player--active');
+  player0.classList.remove('pig--winner');
+  player1.classList.remove('pig--winner');
+
 }
 init();
 
@@ -90,6 +96,7 @@ btnHold.addEventListener('click', function () {
     playing = false;
     diceEl.classList.add('hidden');
     document.querySelector(`.player--${activePlayer}`).classList.add('player--winner');
+    document.querySelector(`.player--${activePlayer}`).classList.add('pig--winner');
     document.querySelector(`.player--${activePlayer}`).classList.remove('player--active');
   }
 
@@ -99,5 +106,8 @@ btnHold.addEventListener('click', function () {
 });
 
 // Reset the game 
-btnNew.addEventListener('click', init);
+btnNew.addEventListener('click', init)
+
+
+
 
