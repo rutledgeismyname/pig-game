@@ -13,7 +13,7 @@ Rules of Pig Game:
 
 Good Luck!
 
-P.S. I know that we do not have much folder strucutre here within this repository. That is done on purpose to display all the files for ease of use. 
+P.S. I know that we do not have much folder structure here within the repository. That is done on purpose to display all the files for ease of use. 
 
 Happy Coding/Playing! 
 
