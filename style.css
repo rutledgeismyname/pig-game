@@ -44,7 +44,16 @@ main {
   align-items: center;
   transition: all 0.75s;
 }
-
+.pig-faces{
+  width: 55px;
+  transition: 1.3s;
+}
+.pig-2{
+filter: hue-rotate(55deg);
+}
+.pig-faces:hover{
+  transform: rotate(360deg);
+}
 /* ELEMENTS */
 .name {
   position: relative;
