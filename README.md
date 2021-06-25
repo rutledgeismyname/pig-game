@@ -16,3 +16,5 @@ Good Luck!
 P.S. I know that we do not have much folder strucutre here within this repository. That is done on purpose to display all the files for ease of use. 
 
 Happy Coding/Playing! 
+
+Visit here to play: https://rutledgeismyname.github.io/pig-game/ 
